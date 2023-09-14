@@ -1,13 +1,14 @@
 
-body{
+
+/* body{
     font-family: 'Montserrat', sans-serif;
     background:url('https://i.ibb.co/JB1y0X5/4690.jpg') ,
-    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    linear-gradient(rgba(110, 110, 110, 0.6),rgba(146, 128, 128, 0.6));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
-}
+} */
 
 
 .card{
@@ -28,4 +29,13 @@ body{
 }
 .select-btn{
     background-color: aquamarine;
+}
+.home-containner{
+    display: flex;
+}
+.card-container{
+width: 600px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
 }
